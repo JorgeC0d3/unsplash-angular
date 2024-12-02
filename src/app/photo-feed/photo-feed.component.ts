@@ -13,7 +13,7 @@ export class PhotoFeedComponent {
   photos: any[] = [];
 
   getPhotos(){
-    const apiUrl = 'https://api.unsplash.com/photos/random?client_id=0pW7BN_YnqSydQE3j1wtECO--JSGK5yqBHxlnBtqCfY&count=12';
+    const apiUrl = 'https://api.unsplash.com/photos/random?client_id=yourkey&count=12';
 
     fetch(apiUrl)
       .then(response => {
