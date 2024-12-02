@@ -1,0 +1,9 @@
+<div class="container mt-5">
+    <div class="row">
+        @for(photo of photos; track photo.id){
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <app-photo [photo] = "photo" />
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+.card {
+    border: none;
+    border-radius: 0;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 300px; /* Fija la altura para que todas las imágenes sean consistentes */
+    overflow: hidden; /* Oculta cualquier contenido desbordado */
+    border-radius: 8px; /* Opcional: Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: Sombra para un diseño atractivo */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen llene el contenedor sin distorsionarse */
+    display: block; /* Elimina cualquier espacio debajo de la imagen */
+}
